@@ -1,0 +1,50 @@
+.signup-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+}
+
+.signup-card {
+  width: 360px;
+  padding: 25px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-card h2 {
+  margin-bottom: 20px;
+}
+
+.signup-card input,
+.signup-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.signup-card button {
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-card p {
+  margin-top: 12px;
+}
+
+.signup-card span {
+  color: blue;
+  cursor: pointer;
+}
+
+.signup-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}

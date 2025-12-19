@@ -1,0 +1,112 @@
+/* Light theme (default) */
+.signup-container {
+  background: #f4f4f4;
+}
+
+.signup-card {
+  background: #ffffff;
+  color: #000000;
+}
+
+.signup-card input,
+.signup-card select {
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #cccccc;
+}
+
+.signup-card button {
+  background: #000000;
+  color: #ffffff;
+}
+
+.login-container {
+  background: #f4f4f4;
+}
+
+.login-box {
+  background: #ffffff;
+  color: #000000;
+}
+
+.login-input {
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #cccccc;
+}
+
+.login-button {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Dark theme */
+.dark-theme .signup-container {
+  background: #000000;
+}
+
+.dark-theme .signup-card {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-theme .signup-card input,
+.dark-theme .signup-card select {
+  background: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+}
+
+.dark-theme .signup-card button {
+  background: #ffffff;
+  color: #000000;
+}
+
+.dark-theme .login-container {
+  background: #000000;
+}
+
+.dark-theme .login-box {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-theme .login-input {
+  background: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+}
+
+.dark-theme .login-button {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* Header and Footer theme styling */
+header {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+footer {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+.dark-theme header {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+.dark-theme footer {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+.dark-theme header a {
+  color: #ffffff !important;
+}
+
+header a {
+  color: #000000 !important;
+}
