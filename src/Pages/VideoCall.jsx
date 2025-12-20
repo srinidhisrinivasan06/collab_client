@@ -14,7 +14,7 @@ const VideoCall = () => {
   const localStream = useRef(null);
 
   useEffect(() => {
-    const newSocket = io('http://localhost:5000');
+    const newSocket = io('https://YOUR_DEPLOYED_BACKEND_URL');
     setSocket(newSocket);
 
     const userId = localStorage.getItem('userId');

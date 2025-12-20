@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://collab-backend-wjcd.onrender.com/api/auth/login', {
+      const response = await fetch('https://YOUR_DEPLOYED_BACKEND_URL/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password })
