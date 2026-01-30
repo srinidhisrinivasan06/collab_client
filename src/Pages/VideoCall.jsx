@@ -14,7 +14,7 @@ const VideoCall = () => {
   const localStream = useRef(null);
 
   useEffect(() => {
-    const newSocket = io('https://collab-backend-1-xjjx.onrender.com');
+    const newSocket = io('http://localhost:5000');
     setSocket(newSocket);
 
     const userId = localStorage.getItem('userId');
