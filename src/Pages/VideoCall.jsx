@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { io } from 'socket.io-client';
+import { API_BASE_URL } from '../config/api';
 
 const VideoCall = () => {
   const { roomId } = useParams();
@@ -14,7 +15,7 @@ const VideoCall = () => {
   const localStream = useRef(null);
 
   useEffect(() => {
-    const newSocket = io('https://collab-backend-2-p1rk.onrender.com');
+    const newSocket = io(API_BASE_URL);
     setSocket(newSocket);
 
     const userId = localStorage.getItem('userId');
